@@ -1,0 +1,11 @@
+/* To learn more about this file see: https://angular.io/config/tsconfig. */
+{
+  "extends": "tsconfig/angular.json",
+  "compilerOptions": {
+    "paths": {
+      "@common/*": ["src/app/common/*"],
+      "@features/*": ["src/app/features/*"],
+      "@auth/*": ["src/app/auth/*"]
+    }
+  }
+}
